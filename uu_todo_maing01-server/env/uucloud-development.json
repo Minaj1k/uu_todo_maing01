@@ -2,14 +2,15 @@
   "schemaVersion": "1.0.0",
   "schemaSpecificationUri": "https://uuos9.plus4u.net/uu-bookkitg01-main/78462435-289fcd2e11d34f3e9b2184bedb236ded/book/page?code=uuSubAppInstanceDescriptor",
   "uuSubApp": {
-    "code": "UU.TODO.MAING01",
-    "version": "0.1.0",
-    "name": "uuTodoMaing01",
+    "code": "TGA.TODO2359481.MAIN",
+    "version": "0.1.0-dev",
+    "name": "tgaTodoMaing01",
     "description": "",
     "license": "License Commercial",
     "asidRequired": true,
     "awidCount": 1,
-    "resourcePoolUri": "----- VALUE REQUIRED -----",
+    "resourcePoolUri": "ues:TGA-BT:DEV",
+    "targetSlot": "BETA",
     "uuAppNodeSetMap": {
       "CMD": {
         "nodeSize": "G1_S",
@@ -17,19 +18,42 @@
           "min": 1,
           "max": 1
         },
-        "appPackUri": null,
-        "runtimeStack": "UU.OS9/UC_NODEJS_STACK-V1.1"
+        "runtimeStack": "UU.OS9/UC_NODEJS_STACK-V1.1",
+        "appPackUri": "ues:TGA-BT:TGA.TODO2359481.MAIN/APPBOX-0.1.0-dev:TGA.TODO2359481.MAIN/CMD-PACK"
       }
     },
     "uuAppObjectStoreMap": {
       "OSID_1": {
-        "technology": "MongoDB-3.4",
         "size": 0.25,
-        "backup": false,
         "alias": "primary"
       }
     },
-    "uuConfigMap": {
+    "uuAppBinaryStoreMap": {
+      "BSID_1": {
+        "size": 2,
+        "alias": "binary"
+      }
+    },
+    "uuConfigMap": {}
+  },
+  "uuSubAppInstance": {
+    "asid": "ca53f02de740469f973a6df244e46a59",
+    "asidOwner": "23-5948-1",
+    "awidList": [
+      {
+        "awid": "966d043b09014d72969c3e3ab765b72e",
+        "awidOwner": "23-5948-1"
+      }
+    ],
+    "uuAppObjectStoreMap": {
+      "OSID_1": {
+        "osid": "80b88ba2c7a84e17a665cacfa2bb280e"
+      }
+    },
+    "uuAppBinaryStoreMap": {
+      "BSID_1": {
+        "bsid": "e0f287201f43446d97a75ce49cfa4b0e"
+      }
     }
   }
 }

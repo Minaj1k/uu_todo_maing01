@@ -1,6 +1,6 @@
 {
   "product": "uu_todo_maing01",
-  "version": "0.1.0",
+  "version": "0.1.0-dev",
   "license": "License Commercial",
   "description": {
     "en": "",
@@ -10,8 +10,8 @@
   "uu_todo_maing01-server": {
     "devkit": {
       "development": {
-        "appBoxLocationUri": "----- VALUE REQUIRED -----",
-        "appDeploymentUri": null
+        "appBoxLocationUri": "ues:TGA-BT:UAD201911-01/23-5948-1",
+        "appDeploymentUri": "ues:TGA-BT[84723967990090703]:DEV[571fb9d82792891f35e228f0]:TGA.TODO2359481.MAIN[5dd6863a37c92c3dedea4226]"
       }
     }
   }

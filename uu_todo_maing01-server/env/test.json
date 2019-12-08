@@ -1,11 +1,11 @@
 {
   "privilegedUserMap": {
-    "asidOwner": "23-5948-1"
+    "asidOwner": "14-2710-1"
   },
   "asid": "11111111111111111111111111111111",
   "sysAppWorkspace": {
     "awid": "22222222222222222222222222222222",
-    "awidOwner": "23-5948-1",
+    "awidOwner": "14-2710-1",
     "licenseOwner": {
       "organization": {
         "name": "Test Organization",
