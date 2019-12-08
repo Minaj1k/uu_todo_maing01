@@ -1,0 +1,18 @@
+{
+  "uuSubAppDataStore": {
+    "primary": {
+      "type": "uuAppObjectStore",
+      "realization": "MongoDB",
+      "schemaMap": {
+        "list": {
+          "realization": "dao/TodoListMongo",
+          "maxNoi": 100
+        },
+        "item": {
+          "realization": "dao/TodoItemMongo",
+          "maxNoi": 500000
+        }
+      }
+    }
+  }
+}
